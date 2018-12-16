@@ -1,3 +1,8 @@
+/*
+ * Task: delete duplicate elements
+ * Argument: list of elements
+ * Return: <in-place>
+ */
 template<class T>
 void purge(T &list) {
     int p, q;
@@ -15,6 +20,11 @@ void purge(T &list) {
     }
 }
 
+/*
+ * Task: maximum consecutive sum
+ * Argument: list of values
+ * Return: maxSum
+ */
 template<class T>
 int getMaxSum(T &list) {
     int n = list.size();
